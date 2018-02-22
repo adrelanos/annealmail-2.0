@@ -1,0 +1,32 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: annealmail
+Source: <url://example.com>
+
+Files: *
+Copyright: <years> <put author's name and email here>
+           <years> <likewise for another author>
+License: <special license>
+ <Put the license of the package here indented by 1 space>
+ <This follows the format of Description: lines in control file>
+ .
+ <Including paragraphs>
+
+Files: debian/*
+Copyright: 2018 ndoiron <ndoiron@mapmeld.com>
+License: MPL 2.0
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the Mozilla Public License as published by
+ the Mozilla Foundation; either version 2 of the License.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ Mozilla Public License for more details.
+ .
+ You should have received a copy of the Mozilla Public License
+ along with this program. If not, see <https://www.mozilla.org/en-US/MPL/2.0/>
+
+# Please also look if there are files or directories which have a
+# different copyright/license attached and list them here.
+# Please avoid to pick license terms that are more restrictive than the
+# packaged work, as it may make Debian's contributions unacceptable upstream.

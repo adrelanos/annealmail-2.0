@@ -1,0 +1,5 @@
+annealmail (2.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- bancfc <bancfc@openmailbox.org>  Sat, 10 Feb 2018 18:13:20 +0000

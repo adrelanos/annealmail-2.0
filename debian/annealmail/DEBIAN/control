@@ -1,0 +1,14 @@
+Package: annealmail
+Version: 2.0-1
+Architecture: i386
+Maintainer: bancfc <bancfc@openmailbox.org>
+Installed-Size: 2315
+Depends: codecrypt, thunderbird (>= 38.0) | icedove (>= 38.0) | iceape (>= 2.35)
+Recommends: pinentry-x11
+Enhances: iceape, icedove, thunderbird
+Breaks: iceape (>> 2.45+), iceape (<< 2.35), icedove (<< 38.0), thunderbird (<< 38.0)
+Provides: iceape-annealmail, icedove-annealmail, thunderbird-annealmail, xul-ext-annealmail
+Section: unknown
+Priority: optional
+Homepage: https://annealmail.github.io
+Description: post-quantum email encryption with CodeCrypt

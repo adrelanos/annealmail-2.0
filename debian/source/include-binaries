@@ -1,0 +1,12 @@
+util/Expression.pyc
+util/MozZipFile.pyc
+util/Preprocessor.pyc
+util/buildlist.pyc
+util/ply/__init__.pyc
+util/ply/lex.pyc
+util/ply/yacc.pyc
+util/utils.pyc
+util/xpidl.pyc
+util/xpidllex.pyc
+util/xpidlyacc.pyc
+util/xpt.pyc

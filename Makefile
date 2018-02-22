@@ -32,20 +32,6 @@ $(DIRS):
 xpi:
 	$(srcdir)/util/genxpi $(XPIFILE) $(XPI_MODULE_VERS) $(DIST) $(srcdir) $(XPI_MODULE) $(ENABLE_LANG)
 
-check:
-	util/checkFiles.py
-
-eslint:
-	static_analysis/eslint ipc
-	static_analysis/eslint package
-	static_analysis/eslint ui
-
-unit:
-	make -C package/tests
-	make -C ui/tests
-
-test: eslint check unit
-
 clean:
 	rm -f build/$(XPIFILE)
 	for dir in $(DIRS); do \

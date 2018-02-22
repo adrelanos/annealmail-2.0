@@ -1,0 +1,34 @@
+Source: annealmail
+Section: unknown
+Priority: optional
+Maintainer: bancfc <bancfc@openmailbox.org>
+Build-Depends: 
+ debhelper,
+ make (>=3.81),
+ mozilla-devscripts,
+ perl,
+ python,
+ zip,
+Standards-Version: 4.1.2
+Homepage: https://annealmail.github.io
+#Vcs-Git: git://anonscm.debian.org/collab-maint/annealmail.git
+#Vcs-Browser: https://anonscm.debian.org/?p=collab-maint/annealmail.git;a=summary
+
+Package: annealmail
+Architecture: any
+Depends: 
+ codecrypt, 
+ ${shlibs:Depends}, 
+ ${misc:Depends}, 
+ ${xpi:Depends},
+Recommends:
+ pinentry-x11,
+ ${xpi:Recommends},
+Provides:
+ ${xpi:Provides},
+Enhances:
+ ${xpi:Enhances},
+Breaks:
+ ${xpi:Breaks},
+Description: 
+ post-quantum email encryption with CodeCrypt
